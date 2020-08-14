@@ -1,4 +1,4 @@
-# Uniform Resources Management System
+# TypeScript Cache
 
 TypeScript cache-backed object proxy.
 
