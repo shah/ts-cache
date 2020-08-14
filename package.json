@@ -1,0 +1,39 @@
+{
+    "name": "@shah/ts-cache",
+    "version": "0.0.1",
+    "description": "TypeScript caching library",
+    "main": "dist/cache.js",
+    "types": "dist/cache.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "prepublishOnly": "tsc --project tsconfig.json",
+        "build": "tsc --project tsconfig.json",
+        "test": "alsatian './**/*.spec.ts'"
+    },
+    "repository": {
+        "url": "git://github.com/shah/ts-cache.git"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/"
+    },
+    "keywords": [
+        "url",
+        "uri",
+        "urn"
+    ],
+    "author": "Shahid N. Shah",
+    "license": "MIT",
+    "dependencies": {},
+    "bugs": {
+        "url": "https://github.com/shah/ts-cache/issues"
+    },
+    "homepage": "https://github.com/shah/ts-cache",
+    "devDependencies": {
+        "@types/node": "^14.0.26",
+        "alsatian": "^3.2.1",
+        "ts-node": "^8.10.2",
+        "typescript": "^3.9.7"
+    }
+}
